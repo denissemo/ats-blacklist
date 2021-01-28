@@ -6,7 +6,7 @@ import (
     "os"
     "time"
 
-    "ats-blacklist/utils"
+    "github.com/denissemo/ats-blacklist/utils"
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
 )

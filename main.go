@@ -7,8 +7,8 @@ import (
     "os"
     "regexp"
 
-    "ats-blacklist/models"
-    "ats-blacklist/utils"
+    "github.com/denissemo/ats-blacklist/models"
+    "github.com/denissemo/ats-blacklist/utils"
 )
 
 func init() {

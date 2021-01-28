@@ -8,8 +8,8 @@ COPY . /go/src/ats-blacklist
 
 WORKDIR /go/src/ats-blacklist
 
-#RUN go build -o ./build -v .
+RUN go build -o ./build -v .
 
 EXPOSE 3000
 
-#CMD ./build/ats-blacklist
+CMD ./build/ats-blacklist
