@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATS Blacklist</title>
+</head>
+<body>
+    <h2>Добавить номер в черный список</h2>
+    <form action="/create" method="post">
+        <label for="phone">Номер телефона *</label><br>
+        <input id="phone" type="tel" name="phone" required placeholder="Формат: 380123456789"><br><br>
+        <label for="comment">Комментарий *</label><br>
+        <input id="comment" type="text" name="comment" required><br><br>
+        <input type="submit" value="Добавить">
+    </form>
+</body>
+</html>
