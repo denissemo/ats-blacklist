@@ -8,7 +8,7 @@
 
 ### Run container
 
-- `docker run -d -p 3000:3000 --name=<container-name> <image-name>`
+- `docker run -d -p 3000:3000 --name=<container-name> --network="host" <image-name>`
 
 ### Show logs
 
